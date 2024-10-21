@@ -10,5 +10,5 @@ export function List() {
   const listItems = people.map((person) => {
     return <li>{person.name}</li>;
   });
-  return <ul>{listItems}</ul>;
+  return <ul className="">{listItems}</ul>;
 }
